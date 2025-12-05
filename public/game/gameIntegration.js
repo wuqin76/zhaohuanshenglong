@@ -10,19 +10,34 @@
     
     // 等待游戏和计数器都加载完成
     function waitForDependencies(callback) {
+        let attempts = 0;
         const checkInterval = setInterval(() => {
-            if (window.FishCounter && window.cc && window.__require) {
+            attempts++;
+            const hasFishCounter = !!window.FishCounter;
+            const hasCC = !!window.cc;
+            const hasRequire = !!window.__require;
+            
+            if (attempts % 10 === 0) {
+                console.log(`⏳ 等待依赖加载... (${attempts/10}秒) FishCounter:${hasFishCounter} cc:${hasCC} require:${hasRequire}`);
+            }
+            
+            if (hasFishCounter && hasCC && hasRequire) {
                 clearInterval(checkInterval);
                 console.log('✅ 依赖加载完成，开始集成');
                 callback();
             }
         }, 100);
         
-        // 超时保护（10秒）
+        // 超时保护（20秒）
         setTimeout(() => {
             clearInterval(checkInterval);
-            console.warn('⚠️ 依赖加载超时');
-        }, 10000);
+            console.warn('⚠️ 依赖加载超时，某些功能可能不可用');
+            console.warn('依赖状态:', {
+                FishCounter: !!window.FishCounter,
+                cc: !!window.cc,
+                require: !!window.__require
+            });
+        }, 20000);
     }
     
     /**

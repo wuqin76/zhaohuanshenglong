@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="full-screen" content="yes">
     <meta name="screen-orientation" content="portrait">
@@ -11,9 +12,6 @@
     <title>🐉 召唤神龙 - 游戏中</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="./game/style-mobile.css">
-    <script src="./game/fishCounter.js"></script>
-    <script src="./game/powerUpSystem.js"></script>
-    <script src="./game/gameIntegration.js"></script>
 </head>
 <body style="padding:0;margin:0;border:0;">
     <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
@@ -24,9 +22,15 @@
         </div>
     </div>
     
+    <!-- Cocos 引擎和游戏核心 -->
     <script src="./game/src/settings.js" charset="utf-8"></script>
     <script src="./game/cocos2d-js-min.js" charset="utf-8"></script>
     <script src="./game/main.js" charset="utf-8"></script>
+    
+    <!-- 游戏功能模块（在引擎加载后） -->
+    <script src="./game/fishCounter.js"></script>
+    <script src="./game/powerUpSystem.js"></script>
+    <script src="./game/gameIntegration.js"></script>
     <script src="./game/ads.js" charset="utf-8"></script>
 </body>
 </html>
