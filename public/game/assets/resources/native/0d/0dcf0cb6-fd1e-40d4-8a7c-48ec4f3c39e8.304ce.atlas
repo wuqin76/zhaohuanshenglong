@@ -1,0 +1,90 @@
+
+taoti.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/jiao
+  rotate: false
+  xy: 769, 95
+  size: 155, 149
+  orig: 155, 149
+  offset: 0, 0
+  index: -1
+normal/piaodai
+  rotate: false
+  xy: 2, 88
+  size: 227, 156
+  orig: 227, 156
+  offset: 0, 0
+  index: -1
+normal/shenti
+  rotate: false
+  xy: 450, 109
+  size: 158, 135
+  orig: 158, 135
+  offset: 0, 0
+  index: -1
+normal/tou
+  rotate: true
+  xy: 610, 109
+  size: 135, 157
+  orig: 135, 157
+  offset: 0, 0
+  index: -1
+normal/weiba
+  rotate: true
+  xy: 231, 127
+  size: 117, 217
+  orig: 117, 217
+  offset: 0, 0
+  index: -1
+normal/y_houtui
+  rotate: true
+  xy: 333, 81
+  size: 44, 82
+  orig: 44, 82
+  offset: 0, 0
+  index: -1
+normal/y_houxiazhi
+  rotate: true
+  xy: 209, 34
+  size: 34, 72
+  orig: 34, 72
+  offset: 0, 0
+  index: -1
+normal/y_qianzhi
+  rotate: true
+  xy: 2, 12
+  size: 74, 118
+  orig: 74, 118
+  offset: 0, 0
+  index: -1
+normal/y_zhuangbei
+  rotate: false
+  xy: 122, 2
+  size: 85, 84
+  orig: 85, 84
+  offset: 0, 0
+  index: -1
+normal/z_qianzhi
+  rotate: true
+  xy: 231, 70
+  size: 55, 100
+  orig: 55, 100
+  offset: 0, 0
+  index: -1
+normal/z_zhuangbei
+  rotate: true
+  xy: 926, 97
+  size: 45, 84
+  orig: 45, 84
+  offset: 0, 0
+  index: -1
+normal/zhuangbei
+  rotate: false
+  xy: 926, 144
+  size: 84, 100
+  orig: 84, 100
+  offset: 0, 0
+  index: -1

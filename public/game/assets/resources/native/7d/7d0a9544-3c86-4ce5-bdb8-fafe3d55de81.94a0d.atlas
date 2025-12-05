@@ -1,0 +1,139 @@
+
+pingpeng.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/shenti
+  rotate: false
+  xy: 2, 18
+  size: 123, 108
+  orig: 123, 108
+  offset: 0, 0
+  index: -1
+normal/y_er
+  rotate: true
+  xy: 127, 3
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+normal/y_houdatui
+  rotate: true
+  xy: 397, 84
+  size: 42, 60
+  orig: 42, 60
+  offset: 0, 0
+  index: -1
+normal/y_qianti
+  rotate: false
+  xy: 206, 5
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+normal/y_tou
+  rotate: false
+  xy: 200, 61
+  size: 63, 65
+  orig: 63, 65
+  offset: 0, 0
+  index: -1
+normal/y_xiaoba
+  rotate: true
+  xy: 200, 27
+  size: 32, 44
+  orig: 32, 44
+  offset: 0, 0
+  index: -1
+normal/y_xiaotui
+  rotate: false
+  xy: 290, 18
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+normal/yy_datui
+  rotate: false
+  xy: 339, 48
+  size: 40, 33
+  orig: 40, 33
+  offset: 0, 0
+  index: -1
+normal/yy_ti
+  rotate: false
+  xy: 234, 2
+  size: 22, 16
+  orig: 22, 16
+  offset: 0, 0
+  index: -1
+normal/yy_xiaotui
+  rotate: false
+  xy: 381, 48
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+normal/z_datui
+  rotate: true
+  xy: 335, 83
+  size: 43, 60
+  orig: 43, 60
+  offset: 0, 0
+  index: -1
+normal/z_er
+  rotate: true
+  xy: 459, 88
+  size: 38, 50
+  orig: 38, 50
+  offset: 0, 0
+  index: -1
+normal/z_qianti
+  rotate: false
+  xy: 311, 54
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+normal/z_tou
+  rotate: false
+  xy: 127, 40
+  size: 71, 86
+  orig: 71, 86
+  offset: 0, 0
+  index: -1
+normal/z_xiaoba
+  rotate: true
+  xy: 265, 81
+  size: 45, 68
+  orig: 45, 68
+  offset: 0, 0
+  index: -1
+normal/z_xiaotui
+  rotate: false
+  xy: 416, 57
+  size: 34, 25
+  orig: 34, 25
+  offset: 0, 0
+  index: -1
+normal/zz_qiantui
+  rotate: true
+  xy: 246, 20
+  size: 32, 42
+  orig: 32, 42
+  offset: 0, 0
+  index: -1
+normal/zz_ti
+  rotate: true
+  xy: 179, 2
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+normal/zz_xiaotui
+  rotate: true
+  xy: 265, 54
+  size: 25, 44
+  orig: 25, 44
+  offset: 0, 0
+  index: -1

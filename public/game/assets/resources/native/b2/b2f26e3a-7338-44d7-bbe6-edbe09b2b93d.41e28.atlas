@@ -1,0 +1,111 @@
+
+xiqu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/shenti
+  rotate: false
+  xy: 2, 125
+  size: 130, 129
+  orig: 130, 129
+  offset: 0, 0
+  index: -1
+normal/tou
+  rotate: true
+  xy: 2, 2
+  size: 121, 126
+  orig: 121, 126
+  offset: 0, 0
+  index: -1
+normal/weiba
+  rotate: false
+  xy: 134, 175
+  size: 68, 79
+  orig: 68, 79
+  offset: 0, 0
+  index: -1
+normal/y_datui
+  rotate: false
+  xy: 204, 182
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: -1
+normal/y_houdatui
+  rotate: true
+  xy: 134, 115
+  size: 58, 75
+  orig: 58, 75
+  offset: 0, 0
+  index: -1
+normal/y_houtui
+  rotate: true
+  xy: 218, 50
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+normal/y_houxiaotui
+  rotate: true
+  xy: 211, 118
+  size: 23, 41
+  orig: 23, 41
+  offset: 0, 0
+  index: -1
+normal/y_qianti
+  rotate: false
+  xy: 218, 83
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+normal/y_xiaotui
+  rotate: true
+  xy: 211, 143
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+normal/z_datui
+  rotate: false
+  xy: 179, 51
+  size: 37, 62
+  orig: 37, 62
+  offset: 0, 0
+  index: -1
+normal/z_houdatui
+  rotate: false
+  xy: 130, 52
+  size: 47, 61
+  orig: 47, 61
+  offset: 0, 0
+  index: -1
+normal/z_houti
+  rotate: false
+  xy: 204, 2
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+normal/z_houxiaotui
+  rotate: true
+  xy: 204, 28
+  size: 20, 35
+  orig: 20, 35
+  offset: 0, 0
+  index: -1
+normal/z_qianti
+  rotate: false
+  xy: 170, 18
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+normal/z_xiaotui
+  rotate: false
+  xy: 130, 8
+  size: 38, 42
+  orig: 38, 42
+  offset: 0, 0
+  index: -1

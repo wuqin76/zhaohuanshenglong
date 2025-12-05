@@ -1,0 +1,132 @@
+
+quongqi.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/beichi02
+  rotate: false
+  xy: 325, 121
+  size: 65, 36
+  orig: 65, 36
+  offset: 0, 0
+  index: -1
+normal/bici01
+  rotate: true
+  xy: 843, 202
+  size: 52, 83
+  orig: 52, 83
+  offset: 0, 0
+  index: -1
+normal/niutou
+  rotate: true
+  xy: 2, 2
+  size: 118, 97
+  orig: 118, 97
+  offset: 0, 0
+  index: -1
+normal/shenti
+  rotate: false
+  xy: 325, 159
+  size: 122, 95
+  orig: 122, 95
+  offset: 0, 0
+  index: -1
+normal/weiba
+  rotate: false
+  xy: 566, 170
+  size: 99, 84
+  orig: 99, 84
+  offset: 0, 0
+  index: -1
+normal/xiaba
+  rotate: true
+  xy: 566, 80
+  size: 44, 47
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+normal/y_chibang
+  rotate: true
+  xy: 164, 133
+  size: 121, 159
+  orig: 121, 159
+  offset: 0, 0
+  index: -1
+normal/y_piaodai01
+  rotate: true
+  xy: 667, 192
+  size: 62, 90
+  orig: 62, 90
+  offset: 0, 0
+  index: -1
+normal/y_piaodai02
+  rotate: false
+  xy: 392, 111
+  size: 59, 46
+  orig: 59, 46
+  offset: 0, 0
+  index: -1
+normal/y_qiandabi
+  rotate: true
+  xy: 928, 191
+  size: 63, 67
+  orig: 63, 67
+  offset: 0, 0
+  index: -1
+normal/y_qianxiaobi
+  rotate: true
+  xy: 759, 195
+  size: 59, 82
+  orig: 59, 82
+  offset: 0, 0
+  index: -1
+normal/z_chibang
+  rotate: false
+  xy: 2, 122
+  size: 160, 132
+  orig: 160, 132
+  offset: 0, 0
+  index: -1
+normal/z_houdatui
+  rotate: true
+  xy: 667, 158
+  size: 32, 60
+  orig: 32, 60
+  offset: 0, 0
+  index: -1
+normal/z_houxiaotui
+  rotate: true
+  xy: 566, 126
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+normal/z_piaodai01
+  rotate: true
+  xy: 449, 175
+  size: 79, 115
+  orig: 79, 115
+  offset: 0, 0
+  index: -1
+normal/z_piaodai02
+  rotate: false
+  xy: 453, 113
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+normal/z_qiandabi
+  rotate: false
+  xy: 515, 109
+  size: 49, 64
+  orig: 49, 64
+  offset: 0, 0
+  index: -1
+normal/z_qianxiaobi
+  rotate: false
+  xy: 101, 28
+  size: 53, 92
+  orig: 53, 92
+  offset: 0, 0
+  index: -1

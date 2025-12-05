@@ -1,0 +1,48 @@
+
+long13.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/1
+  rotate: true
+  xy: 2, 207
+  size: 255, 832
+  orig: 255, 832
+  offset: 0, 0
+  index: -1
+normal/2
+  rotate: true
+  xy: 2, 2
+  size: 44, 490
+  orig: 44, 490
+  offset: 0, 0
+  index: -1
+normal/3
+  rotate: true
+  xy: 1347, 345
+  size: 117, 370
+  orig: 117, 370
+  offset: 0, 0
+  index: -1
+normal/4
+  rotate: true
+  xy: 836, 186
+  size: 117, 370
+  orig: 117, 370
+  offset: 0, 0
+  index: -1
+normal/5
+  rotate: true
+  xy: 2, 48
+  size: 157, 509
+  orig: 157, 509
+  offset: 0, 0
+  index: -1
+normal/6
+  rotate: true
+  xy: 836, 305
+  size: 157, 509
+  orig: 157, 509
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,139 @@
+
+xingtian.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/bozi
+  rotate: true
+  xy: 305, 364
+  size: 42, 46
+  orig: 42, 46
+  offset: 0, 0
+  index: -1
+normal/dunpai
+  rotate: false
+  xy: 2, 216
+  size: 100, 164
+  orig: 100, 164
+  offset: 0, 0
+  index: -1
+normal/fuzi
+  rotate: false
+  xy: 2, 382
+  size: 236, 123
+  orig: 236, 123
+  offset: 0, 0
+  index: -1
+normal/pifeng01
+  rotate: true
+  xy: 240, 408
+  size: 97, 140
+  orig: 97, 140
+  offset: 0, 0
+  index: -1
+normal/pifeng02
+  rotate: true
+  xy: 104, 242
+  size: 138, 126
+  orig: 138, 126
+  offset: 0, 0
+  index: -1
+normal/qunzi01
+  rotate: false
+  xy: 2, 2
+  size: 73, 84
+  orig: 73, 84
+  offset: 0, 0
+  index: -1
+normal/qunzi02
+  rotate: false
+  xy: 240, 379
+  size: 63, 27
+  orig: 63, 27
+  offset: 0, 0
+  index: -1
+normal/shangshen
+  rotate: true
+  xy: 2, 88
+  size: 126, 95
+  orig: 126, 95
+  offset: 0, 0
+  index: -1
+normal/weibo
+  rotate: false
+  xy: 382, 440
+  size: 112, 65
+  orig: 112, 65
+  offset: 0, 0
+  index: -1
+normal/xiaba
+  rotate: false
+  xy: 382, 382
+  size: 105, 56
+  orig: 105, 56
+  offset: 0, 0
+  index: -1
+normal/ys
+  rotate: true
+  xy: 176, 192
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+normal/yt
+  rotate: true
+  xy: 99, 79
+  size: 49, 63
+  orig: 49, 63
+  offset: 0, 0
+  index: -1
+normal/yt2
+  rotate: false
+  xy: 99, 130
+  size: 54, 62
+  orig: 54, 62
+  offset: 0, 0
+  index: -1
+normal/zj
+  rotate: false
+  xy: 232, 262
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+normal/zjb
+  rotate: true
+  xy: 237, 208
+  size: 52, 48
+  orig: 52, 48
+  offset: 0, 0
+  index: -1
+normal/zs
+  rotate: false
+  xy: 155, 140
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+normal/zs02
+  rotate: false
+  xy: 232, 318
+  size: 49, 59
+  orig: 49, 59
+  offset: 0, 0
+  index: -1
+normal/zt
+  rotate: false
+  xy: 104, 194
+  size: 70, 46
+  orig: 70, 46
+  offset: 0, 0
+  index: -1
+normal/zt2
+  rotate: false
+  xy: 164, 81
+  size: 52, 57
+  orig: 52, 57
+  offset: 0, 0
+  index: -1

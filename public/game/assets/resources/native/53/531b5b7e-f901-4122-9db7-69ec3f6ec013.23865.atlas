@@ -1,0 +1,104 @@
+
+jiao.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/niujiao01
+  rotate: false
+  xy: 337, 75
+  size: 57, 51
+  orig: 57, 51
+  offset: 0, 0
+  index: -1
+normal/niujiao02
+  rotate: true
+  xy: 54, 3
+  size: 34, 50
+  orig: 34, 50
+  offset: 0, 0
+  index: -1
+normal/shenti
+  rotate: false
+  xy: 251, 72
+  size: 84, 54
+  orig: 84, 54
+  offset: 0, 0
+  index: -1
+normal/tou
+  rotate: false
+  xy: 396, 79
+  size: 58, 47
+  orig: 58, 47
+  offset: 0, 0
+  index: -1
+normal/toufa
+  rotate: true
+  xy: 131, 30
+  size: 36, 31
+  orig: 36, 31
+  offset: 0, 0
+  index: -1
+normal/weiba_01
+  rotate: true
+  xy: 71, 68
+  size: 58, 91
+  orig: 58, 91
+  offset: 0, 0
+  index: -1
+normal/weiba_02
+  rotate: false
+  xy: 164, 64
+  size: 85, 62
+  orig: 85, 62
+  offset: 0, 0
+  index: -1
+normal/weibo
+  rotate: false
+  xy: 2, 39
+  size: 67, 87
+  orig: 67, 87
+  offset: 0, 0
+  index: -1
+normal/y_dabi
+  rotate: true
+  xy: 255, 45
+  size: 25, 46
+  orig: 25, 46
+  offset: 0, 0
+  index: -1
+normal/y_xiaobi
+  rotate: false
+  xy: 456, 79
+  size: 32, 47
+  orig: 32, 47
+  offset: 0, 0
+  index: -1
+normal/z_dabi
+  rotate: true
+  xy: 211, 35
+  size: 27, 42
+  orig: 27, 42
+  offset: 0, 0
+  index: -1
+normal/z_datui
+  rotate: true
+  xy: 71, 39
+  size: 27, 58
+  orig: 27, 58
+  offset: 0, 0
+  index: -1
+normal/z_xiaobi
+  rotate: true
+  xy: 2, 2
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+normal/z_xiaotui
+  rotate: true
+  xy: 164, 33
+  size: 29, 45
+  orig: 29, 45
+  offset: 0, 0
+  index: -1

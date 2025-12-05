@@ -1,0 +1,90 @@
+
+dangkang.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/bozi
+  rotate: false
+  xy: 2, 104
+  size: 129, 128
+  orig: 129, 128
+  offset: 0, 0
+  index: -1
+normal/shenti
+  rotate: false
+  xy: 133, 156
+  size: 101, 76
+  orig: 101, 76
+  offset: 0, 0
+  index: -1
+normal/tou
+  rotate: true
+  xy: 236, 154
+  size: 78, 79
+  orig: 78, 79
+  offset: 0, 0
+  index: -1
+normal/toufa01
+  rotate: false
+  xy: 317, 164
+  size: 81, 68
+  orig: 81, 68
+  offset: 0, 0
+  index: -1
+normal/toufa02
+  rotate: false
+  xy: 2, 3
+  size: 113, 99
+  orig: 113, 99
+  offset: 0, 0
+  index: -1
+normal/weiba
+  rotate: false
+  xy: 133, 115
+  size: 69, 39
+  orig: 69, 39
+  offset: 0, 0
+  index: -1
+normal/y_houdatui
+  rotate: true
+  xy: 400, 194
+  size: 38, 70
+  orig: 38, 70
+  offset: 0, 0
+  index: -1
+normal/y_houxiaotui
+  rotate: false
+  xy: 117, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+normal/y_shangbi
+  rotate: true
+  xy: 400, 157
+  size: 35, 51
+  orig: 35, 51
+  offset: 0, 0
+  index: -1
+normal/y_zuoti
+  rotate: false
+  xy: 150, 73
+  size: 42, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+normal/z_shangbi
+  rotate: false
+  xy: 117, 52
+  size: 31, 50
+  orig: 31, 50
+  offset: 0, 0
+  index: -1
+normal/z_zuoti
+  rotate: false
+  xy: 472, 192
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1

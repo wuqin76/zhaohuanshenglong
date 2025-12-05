@@ -1,0 +1,83 @@
+
+gudiao.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/shenti
+  rotate: false
+  xy: 240, 36
+  size: 40, 82
+  orig: 40, 82
+  offset: 0, 0
+  index: -1
+normal/tou
+  rotate: false
+  xy: 331, 72
+  size: 53, 46
+  orig: 53, 46
+  offset: 0, 0
+  index: -1
+normal/weiba
+  rotate: false
+  xy: 282, 57
+  size: 47, 61
+  orig: 47, 61
+  offset: 0, 0
+  index: -1
+normal/y_chibang
+  rotate: true
+  xy: 2, 22
+  size: 96, 127
+  orig: 96, 127
+  offset: 0, 0
+  index: -1
+normal/y_datui
+  rotate: true
+  xy: 2, 2
+  size: 18, 38
+  orig: 18, 38
+  offset: 0, 0
+  index: -1
+normal/y_xiaotui
+  rotate: true
+  xy: 331, 59
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+normal/y_zhua
+  rotate: false
+  xy: 282, 36
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+normal/z_chibang
+  rotate: false
+  xy: 131, 13
+  size: 107, 105
+  orig: 107, 105
+  offset: 0, 0
+  index: -1
+normal/z_datui
+  rotate: false
+  xy: 386, 88
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+normal/z_xiaotui
+  rotate: false
+  xy: 42, 12
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+normal/z_zhua
+  rotate: false
+  xy: 240, 13
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+chenghuang.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/jiao
+  rotate: false
+  xy: 2, 24
+  size: 86, 102
+  orig: 86, 102
+  offset: 0, 0
+  index: -1
+normal/shenti
+  rotate: false
+  xy: 206, 64
+  size: 90, 62
+  orig: 90, 62
+  offset: 0, 0
+  index: -1
+normal/tou
+  rotate: true
+  xy: 298, 60
+  size: 66, 75
+  orig: 66, 75
+  offset: 0, 0
+  index: -1
+normal/wei
+  rotate: true
+  xy: 90, 56
+  size: 70, 114
+  orig: 70, 114
+  offset: 0, 0
+  index: -1
+normal/y_houdatui
+  rotate: false
+  xy: 375, 81
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+normal/y_houtui
+  rotate: true
+  xy: 90, 27
+  size: 27, 56
+  orig: 27, 56
+  offset: 0, 0
+  index: -1
+normal/y_qiandatui
+  rotate: false
+  xy: 148, 2
+  size: 36, 25
+  orig: 36, 25
+  offset: 0, 0
+  index: -1
+normal/y_qiantui
+  rotate: false
+  xy: 417, 82
+  size: 30, 44
+  orig: 30, 44
+  offset: 0, 0
+  index: -1
+normal/z_houtui
+  rotate: true
+  xy: 148, 29
+  size: 25, 41
+  orig: 25, 41
+  offset: 0, 0
+  index: -1
+normal/z_qiandatui
+  rotate: false
+  xy: 487, 89
+  size: 22, 37
+  orig: 22, 37
+  offset: 0, 0
+  index: -1
+normal/z_qianzhi
+  rotate: false
+  xy: 449, 90
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1

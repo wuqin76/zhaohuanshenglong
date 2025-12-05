@@ -1,0 +1,132 @@
+
+dijiang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/chibang01
+  rotate: false
+  xy: 2, 329
+  size: 183, 181
+  orig: 183, 181
+  offset: 0, 0
+  index: -1
+normal/chibang02
+  rotate: false
+  xy: 2, 74
+  size: 187, 98
+  orig: 187, 98
+  offset: 0, 0
+  index: -1
+normal/chibang03
+  rotate: false
+  xy: 187, 334
+  size: 145, 176
+  orig: 145, 176
+  offset: 0, 0
+  index: -1
+normal/chibang04
+  rotate: false
+  xy: 334, 384
+  size: 110, 126
+  orig: 110, 126
+  offset: 0, 0
+  index: -1
+normal/qianjiao01
+  rotate: true
+  xy: 334, 294
+  size: 88, 90
+  orig: 88, 90
+  offset: 0, 0
+  index: -1
+normal/qianjiao02
+  rotate: false
+  xy: 446, 410
+  size: 64, 100
+  orig: 64, 100
+  offset: 0, 0
+  index: -1
+normal/qianjiao03
+  rotate: false
+  xy: 222, 276
+  size: 47, 56
+  orig: 47, 56
+  offset: 0, 0
+  index: -1
+normal/qianjiao04
+  rotate: false
+  xy: 426, 296
+  size: 67, 86
+  orig: 67, 86
+  offset: 0, 0
+  index: -1
+normal/qianjiao05
+  rotate: false
+  xy: 115, 2
+  size: 44, 70
+  orig: 44, 70
+  offset: 0, 0
+  index: -1
+normal/qianjiao06
+  rotate: false
+  xy: 59, 2
+  size: 54, 70
+  orig: 54, 70
+  offset: 0, 0
+  index: -1
+normal/qianjiao07
+  rotate: true
+  xy: 161, 6
+  size: 66, 85
+  orig: 66, 85
+  offset: 0, 0
+  index: -1
+normal/qianjiao08
+  rotate: false
+  xy: 2, 2
+  size: 55, 70
+  orig: 55, 70
+  offset: 0, 0
+  index: -1
+normal/qianjiao09
+  rotate: false
+  xy: 182, 265
+  size: 38, 62
+  orig: 38, 62
+  offset: 0, 0
+  index: -1
+normal/qianjiao10
+  rotate: false
+  xy: 271, 283
+  size: 43, 49
+  orig: 43, 49
+  offset: 0, 0
+  index: -1
+normal/qianjiao11
+  rotate: true
+  xy: 226, 204
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1
+normal/qianjiao12
+  rotate: false
+  xy: 226, 232
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+normal/shenti
+  rotate: false
+  xy: 2, 174
+  size: 178, 153
+  orig: 178, 153
+  offset: 0, 0
+  index: -1
+normal/weiba
+  rotate: true
+  xy: 182, 201
+  size: 62, 42
+  orig: 62, 42
+  offset: 0, 0
+  index: -1

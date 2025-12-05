@@ -1,0 +1,125 @@
+
+hundun.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/shange
+  rotate: false
+  xy: 312, 59
+  size: 83, 64
+  orig: 83, 64
+  offset: 0, 0
+  index: -1
+normal/shenti01
+  rotate: true
+  xy: 572, 151
+  size: 100, 136
+  orig: 100, 136
+  offset: 0, 0
+  index: -1
+normal/shenti02
+  rotate: false
+  xy: 2, 61
+  size: 195, 190
+  orig: 195, 190
+  offset: 0, 0
+  index: -1
+normal/shenti03
+  rotate: false
+  xy: 199, 95
+  size: 108, 156
+  orig: 108, 156
+  offset: 0, 0
+  index: -1
+normal/shenti04
+  rotate: false
+  xy: 2, 2
+  size: 114, 57
+  orig: 114, 57
+  offset: 0, 0
+  index: -1
+normal/shenti05
+  rotate: false
+  xy: 842, 178
+  size: 112, 73
+  orig: 112, 73
+  offset: 0, 0
+  index: -1
+normal/xiaoe
+  rotate: false
+  xy: 956, 160
+  size: 65, 91
+  orig: 65, 91
+  offset: 0, 0
+  index: -1
+normal/y_chibang
+  rotate: false
+  xy: 309, 125
+  size: 130, 126
+  orig: 130, 126
+  offset: 0, 0
+  index: -1
+normal/y_er
+  rotate: false
+  xy: 397, 58
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+normal/y_shangbi
+  rotate: true
+  xy: 710, 178
+  size: 73, 130
+  orig: 73, 130
+  offset: 0, 0
+  index: -1
+normal/y_xiaobi
+  rotate: false
+  xy: 218, 12
+  size: 92, 81
+  orig: 92, 81
+  offset: 0, 0
+  index: -1
+normal/y_zhua
+  rotate: true
+  xy: 763, 133
+  size: 43, 44
+  orig: 43, 44
+  offset: 0, 0
+  index: -1
+normal/z_chibang
+  rotate: true
+  xy: 441, 129
+  size: 122, 129
+  orig: 122, 129
+  offset: 0, 0
+  index: -1
+normal/z_er
+  rotate: true
+  xy: 710, 143
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+normal/z_shangbi
+  rotate: true
+  xy: 118, 7
+  size: 52, 98
+  orig: 52, 98
+  offset: 0, 0
+  index: -1
+normal/z_xiabi
+  rotate: true
+  xy: 312, 11
+  size: 46, 67
+  orig: 46, 67
+  offset: 0, 0
+  index: -1
+normal/z_zhuazi
+  rotate: false
+  xy: 809, 145
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1

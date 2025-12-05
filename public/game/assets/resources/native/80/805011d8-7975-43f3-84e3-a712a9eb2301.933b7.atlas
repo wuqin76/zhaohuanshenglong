@@ -1,0 +1,41 @@
+
+men.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/di
+  rotate: false
+  xy: 2, 2
+  size: 256, 236
+  orig: 256, 236
+  offset: 0, 0
+  index: -1
+normal/huanjingguang
+  rotate: false
+  xy: 2, 240
+  size: 678, 734
+  orig: 678, 734
+  offset: 0, 0
+  index: -1
+normal/menkuang
+  rotate: false
+  xy: 682, 287
+  size: 555, 687
+  orig: 555, 687
+  offset: 0, 0
+  index: -1
+normal/you
+  rotate: false
+  xy: 1239, 740
+  size: 127, 234
+  orig: 127, 234
+  offset: 0, 0
+  index: -1
+normal/zuo
+  rotate: false
+  xy: 260, 2
+  size: 124, 236
+  orig: 124, 236
+  offset: 0, 0
+  index: -1

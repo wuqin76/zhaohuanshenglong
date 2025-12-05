@@ -1,0 +1,139 @@
+
+zhulong02.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/beibu01
+  rotate: false
+  xy: 2, 40
+  size: 180, 214
+  orig: 180, 214
+  offset: 0, 0
+  index: -1
+normal/beibu02
+  rotate: false
+  xy: 184, 142
+  size: 260, 112
+  orig: 260, 112
+  offset: 0, 0
+  index: -1
+normal/beibu03
+  rotate: false
+  xy: 446, 91
+  size: 192, 163
+  orig: 192, 163
+  offset: 0, 0
+  index: -1
+normal/bizi
+  rotate: false
+  xy: 406, 2
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+normal/dabi
+  rotate: false
+  xy: 640, 94
+  size: 54, 29
+  orig: 54, 29
+  offset: 0, 0
+  index: -1
+normal/huzi
+  rotate: false
+  xy: 445, 4
+  size: 110, 85
+  orig: 110, 85
+  offset: 0, 0
+  index: -1
+normal/jiao
+  rotate: true
+  xy: 341, 41
+  size: 99, 102
+  orig: 99, 102
+  offset: 0, 0
+  index: -1
+normal/lian
+  rotate: false
+  xy: 641, 30
+  size: 52, 62
+  orig: 52, 62
+  offset: 0, 0
+  index: -1
+normal/toufa
+  rotate: false
+  xy: 640, 125
+  size: 165, 129
+  orig: 165, 129
+  offset: 0, 0
+  index: -1
+normal/toufa02
+  rotate: true
+  xy: 954, 104
+  size: 150, 66
+  orig: 150, 66
+  offset: 0, 0
+  index: -1
+normal/xiaobi
+  rotate: true
+  xy: 272, 30
+  size: 42, 66
+  orig: 42, 66
+  offset: 0, 0
+  index: -1
+normal/y_cb
+  rotate: false
+  xy: 557, 4
+  size: 82, 85
+  orig: 82, 85
+  offset: 0, 0
+  index: -1
+normal/y_huzi
+  rotate: false
+  xy: 807, 110
+  size: 145, 144
+  orig: 145, 144
+  offset: 0, 0
+  index: -1
+normal/y_meimao
+  rotate: false
+  xy: 340, 2
+  size: 64, 37
+  orig: 64, 37
+  offset: 0, 0
+  index: -1
+normal/youyan
+  rotate: false
+  xy: 696, 111
+  size: 40, 12
+  orig: 40, 12
+  offset: 0, 0
+  index: -1
+normal/z_cb
+  rotate: true
+  xy: 184, 32
+  size: 40, 86
+  orig: 40, 86
+  offset: 0, 0
+  index: -1
+normal/z_huzi
+  rotate: true
+  xy: 184, 74
+  size: 66, 155
+  orig: 66, 155
+  offset: 0, 0
+  index: -1
+normal/z_meimao
+  rotate: true
+  xy: 2, 14
+  size: 24, 57
+  orig: 24, 57
+  offset: 0, 0
+  index: -1
+normal/zuoyan
+  rotate: false
+  xy: 406, 21
+  size: 22, 18
+  orig: 22, 18
+  offset: 0, 0
+  index: -1

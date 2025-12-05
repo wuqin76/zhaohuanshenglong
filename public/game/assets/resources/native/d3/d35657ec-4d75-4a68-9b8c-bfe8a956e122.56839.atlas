@@ -1,0 +1,90 @@
+
+fuzhu.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/bojing
+  rotate: true
+  xy: 115, 19
+  size: 58, 69
+  orig: 58, 69
+  offset: 0, 0
+  index: -1
+normal/shen
+  rotate: false
+  xy: 115, 79
+  size: 86, 47
+  orig: 86, 47
+  offset: 0, 0
+  index: -1
+normal/tou
+  rotate: false
+  xy: 2, 18
+  size: 111, 108
+  orig: 111, 108
+  offset: 0, 0
+  index: -1
+normal/weiba
+  rotate: false
+  xy: 203, 75
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+normal/y_houxiazhi
+  rotate: false
+  xy: 361, 84
+  size: 21, 42
+  orig: 21, 42
+  offset: 0, 0
+  index: -1
+normal/y_qiantui
+  rotate: false
+  xy: 407, 100
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+normal/y_xiazhi
+  rotate: false
+  xy: 384, 85
+  size: 21, 41
+  orig: 21, 41
+  offset: 0, 0
+  index: -1
+normal/y_youhuotui
+  rotate: true
+  xy: 442, 105
+  size: 21, 32
+  orig: 21, 32
+  offset: 0, 0
+  index: -1
+normal/z_houtui
+  rotate: false
+  xy: 328, 81
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+normal/z_houxiaotui
+  rotate: false
+  xy: 295, 79
+  size: 31, 47
+  orig: 31, 47
+  offset: 0, 0
+  index: -1
+normal/z_qiantui
+  rotate: false
+  xy: 260, 79
+  size: 33, 47
+  orig: 33, 47
+  offset: 0, 0
+  index: -1
+normal/z_xiatui
+  rotate: true
+  xy: 115, 2
+  size: 15, 50
+  orig: 15, 50
+  offset: 0, 0
+  index: -1

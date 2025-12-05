@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="召唤神龙 - 经典吃鱼大作战游戏，支持免费体验和竞技模式">
+    <meta name="keywords" content="召唤神龙,吃鱼游戏,区块链游戏,Web3游戏">
+    <title>🐉 召唤神龙 - 吃鱼大作战</title>
+    <link rel="stylesheet" href="./styles/welcome.css">
+</head>
+<body>
+    <!-- 背景动画 -->
+    <div class="bg-animation">
+        <div class="fish-bg" style="top: 10%; animation-delay: 0s;">🐟</div>
+        <div class="fish-bg" style="top: 30%; animation-delay: 3s;">🐠</div>
+        <div class="fish-bg" style="top: 50%; animation-delay: 6s;">🐡</div>
+        <div class="fish-bg" style="top: 70%; animation-delay: 9s;">🦈</div>
+        <div class="fish-bg" style="top: 85%; animation-delay: 12s;">🐙</div>
+    </div>
+
+    <div class="container">
+        <div class="welcome-card">
+            <div class="header">
+                <div class="title">🐉 召唤神龙</div>
+                <div class="subtitle">吃鱼大作战 · Web3 链游</div>
+                <div class="tagline">选择你的游戏模式，开始精彩冒险</div>
+            </div>
+
+            <div class="modes-container">
+                <!-- 免费体验模式 -->
+                <div class="mode-card free" onclick="playGame('free')">
+                    <div class="badge badge-free">免费畅玩</div>
+                    <div class="mode-icon">🎮</div>
+                    <div class="mode-title">体验模式</div>
+                    <div class="mode-description">
+                        无需门票，轻松上手，尽情享受游戏乐趣
+                    </div>
+                    <ul class="mode-features">
+                        <li>✓ 完全免费，无需支付</li>
+                        <li>✓ 体验所有游戏玩法</li>
+                        <li>✓ 使用加速和无敌道具</li>
+                        <li>✓ 练习技巧，熟悉规则</li>
+                        <li>✓ 特殊金鱼系统</li>
+                    </ul>
+                    <button class="mode-button btn-free">
+                        立即体验 →
+                    </button>
+                </div>
+
+                <!-- 竞技模式 -->
+                <div class="mode-card competitive" onclick="playGame('competitive')">
+                    <div class="badge badge-hot">🔥 高收益</div>
+                    <div class="mode-icon">💰</div>
+                    <div class="mode-title">竞技模式</div>
+                    <div class="mode-description">
+                        支付门票参与竞技，赢取丰厚USDT奖励
+                    </div>
+                    <ul class="mode-features">
+                        <li>💎 门票：1 USDT/次</li>
+                        <li>🎁 100分：0.5 USDT</li>
+                        <li>💰 500分：2 USDT</li>
+                        <li>🏆 1000分：5 USDT</li>
+                        <li>🎰 10000分：抽奖转盘</li>
+                    </ul>
+                    <button class="mode-button btn-competitive">
+                        连接钱包开始 →
+                    </button>
+                </div>
+            </div>
+
+            <!-- 游戏特色 -->
+            <div class="info-section">
+                <h3>🎯 游戏特色</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-icon">✨</div>
+                        <div class="info-title">特殊金鱼</div>
+                        <div class="info-desc">不同等级的鱼都有概率出现金色特殊鱼，获取额外积分</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🎁</div>
+                        <div class="info-title">强力道具</div>
+                        <div class="info-desc">加速和无敌道具助你快速成长</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🎰</div>
+                        <div class="info-title">抽奖转盘</div>
+                        <div class="info-desc">积累10000分解锁抽奖大厅</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🏆</div>
+                        <div class="info-title">公平竞技</div>
+                        <div class="info-desc">区块链技术保证公平透明</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 底部信息 -->
+            <div class="footer">
+                <p>基于 Cocos Creator 开发 · 区块链技术支持</p>
+                <p class="version">v1.0.0</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

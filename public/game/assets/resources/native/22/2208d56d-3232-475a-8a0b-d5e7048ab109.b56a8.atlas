@@ -1,0 +1,55 @@
+
+long12.png
+size: 512,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+normal/qi1
+  rotate: true
+  xy: 254, 334
+  size: 226, 177
+  orig: 226, 177
+  offset: 0, 0
+  index: -1
+normal/qi2
+  rotate: true
+  xy: 310, 106
+  size: 226, 177
+  orig: 226, 177
+  offset: 0, 0
+  index: -1
+normal/qi3
+  rotate: false
+  xy: 378, 1840
+  size: 120, 170
+  orig: 120, 170
+  offset: 0, 0
+  index: -1
+normal/qi4
+  rotate: false
+  xy: 378, 1668
+  size: 120, 170
+  orig: 120, 170
+  offset: 0, 0
+  index: -1
+normal/shenti
+  rotate: false
+  xy: 2, 562
+  size: 374, 1448
+  orig: 374, 1448
+  offset: 0, 0
+  index: -1
+normal/youxu
+  rotate: false
+  xy: 2, 254
+  size: 250, 306
+  orig: 250, 306
+  offset: 0, 0
+  index: -1
+normal/zuoxu
+  rotate: true
+  xy: 2, 2
+  size: 250, 306
+  orig: 250, 306
+  offset: 0, 0
+  index: -1
