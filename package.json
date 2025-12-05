@@ -16,14 +16,14 @@
     "blockchain",
     "fish-game"
   ],
-  "author": "Your Name",
+  "author": "wuqin76",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/dragon-fish-game.git"
+    "url": "https://github.com/wuqin76/zhaohuanshenglong.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/dragon-fish-game/issues"
+    "url": "https://github.com/wuqin76/zhaohuanshenglong/issues"
   },
-  "homepage": "https://github.com/yourusername/dragon-fish-game#readme"
+  "homepage": "https://zhaohuanshenglong.vercel.app"
 }
