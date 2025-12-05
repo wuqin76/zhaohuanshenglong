@@ -22,11 +22,31 @@
         <div class="welcome-card">
             <div class="header">
                 <div class="title">🐉 召唤神龙</div>
-                <div class="subtitle">吃鱼大作战 · Web3 链游</div>
-                <div class="tagline">选择你的游戏模式，开始精彩冒险</div>
+                <div class="subtitle">吃鱼大作战 · 选择游戏版本</div>
+                <div class="tagline">选择你喜欢的游戏版本，开始精彩冒险</div>
             </div>
 
             <div class="modes-container">
+                <!-- 原版游戏 -->
+                <div class="mode-card classic" onclick="playGame('classic')">
+                    <div class="badge badge-classic">经典版本</div>
+                    <div class="mode-icon">🎯</div>
+                    <div class="mode-title">原版游戏</div>
+                    <div class="mode-description">
+                        经典版本，原汁原味的游戏体验
+                    </div>
+                    <ul class="mode-features">
+                        <li>✓ 原版 Cocos Creator 构建</li>
+                        <li>✓ 经典游戏玩法</li>
+                        <li>✓ 原始画面风格</li>
+                        <li>✓ 纯粹的游戏乐趣</li>
+                        <li>✓ 无额外功能干扰</li>
+                    </ul>
+                    <button class="mode-button btn-classic">
+                        进入经典版 →
+                    </button>
+                </div>
+
                 <!-- 免费体验模式 -->
                 <div class="mode-card free" onclick="playGame('free')">
                     <div class="badge badge-free">免费畅玩</div>

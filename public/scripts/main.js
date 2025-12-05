@@ -5,7 +5,10 @@
 
 // 游戏入口
 function playGame(mode) {
-    if (mode === 'free') {
+    if (mode === 'classic') {
+        // 原版游戏 - 跳转到 game 目录
+        window.location.href = './game/index.html';
+    } else if (mode === 'free') {
         // 免费模式直接进入游戏
         window.location.href = './game-player.html';
     } else if (mode === 'competitive') {

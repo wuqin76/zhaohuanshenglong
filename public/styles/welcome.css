@@ -108,6 +108,14 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+.mode-card.classic {
+    background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+}
+
+.mode-card.classic:hover {
+    border-color: #fdcb6e;
+}
+
 .mode-card.free {
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
 }
@@ -139,6 +147,11 @@ body {
     border-radius: 20px;
     font-size: 0.85em;
     font-weight: bold;
+}
+
+.badge-classic {
+    background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%);
+    color: white;
 }
 
 .badge-free {
@@ -194,6 +207,16 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: 20px;
+}
+
+.btn-classic {
+    background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%);
+    color: white;
+}
+
+.btn-classic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(253, 203, 110, 0.4);
 }
 
 .btn-free {
