@@ -15,13 +15,14 @@
             attempts++;
             const hasFishCounter = !!window.FishCounter;
             const hasCC = !!window.cc;
-            const hasRequire = !!window.__require;
+            const hasCCDirector = !!(window.cc && window.cc.director);
             
             if (attempts % 10 === 0) {
-                console.log(`⏳ 等待依赖加载... (${attempts/10}秒) FishCounter:${hasFishCounter} cc:${hasCC} require:${hasRequire}`);
+                console.log(`⏳ 等待依赖加载... (${attempts/10}秒) FishCounter:${hasFishCounter} cc:${hasCC} director:${hasCCDirector}`);
             }
             
-            if (hasFishCounter && hasCC && hasRequire) {
+            // 只需要 FishCounter 和 cc.director 即可
+            if (hasFishCounter && hasCC && hasCCDirector) {
                 clearInterval(checkInterval);
                 console.log('✅ 依赖加载完成，开始集成');
                 callback();
@@ -31,12 +32,18 @@
         // 超时保护（20秒）
         setTimeout(() => {
             clearInterval(checkInterval);
-            console.warn('⚠️ 依赖加载超时，某些功能可能不可用');
-            console.warn('依赖状态:', {
-                FishCounter: !!window.FishCounter,
-                cc: !!window.cc,
-                require: !!window.__require
-            });
+            const hasAll = window.FishCounter && window.cc && window.cc.director;
+            if (hasAll) {
+                console.log('✅ 超时后检测到依赖已加载，开始集成');
+                callback();
+            } else {
+                console.warn('⚠️ 依赖加载超时，某些功能可能不可用');
+                console.warn('依赖状态:', {
+                    FishCounter: !!window.FishCounter,
+                    cc: !!window.cc,
+                    'cc.director': !!(window.cc && window.cc.director)
+                });
+            }
         }, 20000);
     }
     
