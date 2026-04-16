@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>西昌学院人文社科毕业论文排版模板（2026）</title>
+  <style>
+    /* ===== 页面与纸张设置（A4 + 四边2.5cm） ===== */
+    @page { size: A4; margin: 2.5cm; }
+    body {
+      margin: 0;
+      background: #f4f4f4;
+      font-family: "SimSun", "宋体", "Songti SC", "Times New Roman", serif;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .paper {
+      width: 21cm;
+      min-height: 29.7cm;
+      margin: 16px auto;
+      padding: 2.5cm;
+      background: #fff;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .page-break { break-after: page; page-break-after: always; }
+
+    /* ===== 字体工具类 ===== */
+    .heiti { font-family: "SimHei", "黑体", sans-serif; }
+    .times { font-family: "Times New Roman", serif; }
+    .kaiti { font-family: "KaiTi", "楷体", "STKaiti", serif; }
+    .center { text-align: center; }
+    .right { text-align: right; }
+
+    /* ===== 页眉页脚（示意） ===== */
+    .page-header {
+      position: absolute;
+      top: -1.8cm;
+      left: 0;
+      right: 0;
+      border-bottom: 1px solid #000;
+      padding-bottom: 3px;
+      font-size: 10.5pt;
+      text-align: center;
+    }
+    .page-number {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 9pt;
+      font-family: "Times New Roman", serif;
+    }
+
+    /* ===== 标题与段落层级 ===== */
+    .toc-title, .section-title-refs, .section-title-ack, .section-title-declare, .section-title-appendix {
+      text-align: center;
+      font-family: "SimHei", "黑体", sans-serif;
+      line-height: 1;
+      margin: 2em 0;
+    }
+    .toc-title { font-size: 24px; letter-spacing: 0.5em; }
+    .section-title-refs, .section-title-ack, .section-title-declare, .section-title-appendix { font-size: 30px; letter-spacing: 0.25em; }
+
+    .thesis-main-title {
+      margin: 2em 0 0;
+      text-align: center;
+      font-size: 35px;
+      line-height: 1;
+      font-family: "SimHei", "黑体", sans-serif;
+    }
+    .thesis-sub-title {
+      margin: 0.8em 0 2em;
+      text-align: center;
+      font-size: 24px;
+      line-height: 1;
+      font-family: "SimHei", "黑体", sans-serif;
+    }
+    .author-line {
+      margin: 1em 0;
+      text-align: center;
+      font-size: 14px;
+      line-height: 1;
+      font-family: "SimHei", "黑体", sans-serif;
+      word-spacing: 1em;
+    }
+    .grade-major {
+      margin: 0 0 2em;
+      text-align: center;
+      font-size: 12px;
+      line-height: 1;
+    }
+    .section-l1 { margin: 2em 0 1em; font: 700 21px/1.5 "SimHei", "黑体", sans-serif; }
+    .section-l2 { margin: 1em 0; padding-left: 2em; font: 700 19px/1.5 "SimHei", "黑体", sans-serif; }
+    .section-l3 { margin: 0; padding-left: 2em; font: 700 16px/1.5 "SimHei", "黑体", sans-serif; }
+    .section-l4 { margin: 0; padding-left: 2em; font: 700 14px/1.5 "SimSun", "宋体", serif; }
+    p { margin: 0; text-indent: 2em; }
+
+    /* ===== 摘要与关键词 ===== */
+    .abstract-paragraph { margin-bottom: 1em; font-size: 10.5pt; }
+    .keywords {
+      margin: 0 0 2em;
+      font-size: 10.5pt;
+      line-height: 1;
+      text-indent: 0;
+    }
+    .abstract-label, .keyword-label { font-family: "SimHei", "黑体", sans-serif; }
+    .keyword-item { margin-right: 1em; }
+
+    /* ===== 目录 ===== */
+    .toc-list { margin: 0; padding: 0; list-style: none; font-size: 14px; }
+    .toc-item { display: flex; align-items: baseline; margin: 0; line-height: 1.5; }
+    .toc-item .text { white-space: nowrap; }
+    .toc-item .dots { flex: 1; border-bottom: 1px dotted #000; margin: 0 8px; transform: translateY(-2px); }
+    .toc-item .page { min-width: 24px; text-align: right; font-family: "Times New Roman", serif; }
+    .toc-l2 { padding-left: 2em; }
+    .toc-l3 { padding-left: 4em; }
+
+    /* ===== 引文与三线表 ===== */
+    .block-quote {
+      margin: 2em 2em;
+      text-indent: 2em;
+      font-size: 14px;
+      line-height: 1.5;
+      font-family: "KaiTi", "楷体", "STKaiti", serif;
+    }
+    .table-title {
+      margin: 1em 0 0;
+      text-align: center;
+      font-size: 10.5pt;
+      line-height: 1.5;
+      font-family: "SimHei", "黑体", sans-serif;
+    }
+    table.three-line {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+      border-top: 1.5px solid #000;
+      border-bottom: 1.5px solid #000;
+      text-align: center;
+      font-size: 10.5pt;
+    }
+    table.three-line thead th {
+      border-bottom: 1px solid #000;
+      font-weight: 700;
+      padding: 6px 4px;
+    }
+    table.three-line td { padding: 6px 4px; }
+    .ref-list { margin: 0; padding-left: 0; list-style: none; }
+    .ref-item { margin: 0; padding-left: 2em; text-indent: -2em; }
+  </style>
+</head>
+<body>
+  <!-- 封面（通常独立页且不编页码） -->
+  <section class="paper page-break" aria-label="封面">
+    <h1 class="thesis-main-title">数字叙事视域下地方文化传播研究</h1>
+    <h2 class="thesis-sub-title">——以凉山彝族文化短视频传播为例</h2>
+    <p class="author-line">作者：张三　指导教师：李四</p>
+    <p class="grade-major center">(2022级汉语言文学专业)</p>
+  </section>
+
+  <!-- 目录（最多三级，左缩进0/2/4字符） -->
+  <section class="paper page-break" aria-label="目录">
+    <h2 class="toc-title">目 录</h2>
+    <ol class="toc-list">
+      <li class="toc-item"><span class="text">一、研究背景与问题提出</span><span class="dots"></span><span class="page">1</span></li>
+      <li class="toc-item toc-l2"><span class="text">（一）研究背景</span><span class="dots"></span><span class="page">1</span></li>
+      <li class="toc-item toc-l3"><span class="text">1.传播语境变化</span><span class="dots"></span><span class="page">2</span></li>
+      <li class="toc-item"><span class="text">参考文献</span><span class="dots"></span><span class="page">18</span></li>
+      <li class="toc-item"><span class="text">致谢</span><span class="dots"></span><span class="page">20</span></li>
+      <li class="toc-item"><span class="text">独撰声明</span><span class="dots"></span><span class="page">21</span></li>
+      <li class="toc-item"><span class="text">附录</span><span class="dots"></span><span class="page">22</span></li>
+    </ol>
+  </section>
+
+  <!-- 正文起始（从此开始编页码） -->
+  <main class="paper page-break" aria-label="论文正文">
+    <div class="page-header">西昌学院毕业论文</div>
+    <h1 class="thesis-main-title">数字叙事视域下地方文化传播研究</h1>
+    <p class="author-line">作者：张三　指导教师：李四</p>
+    <p class="grade-major center">(2022级汉语言文学专业)</p>
+
+    <p class="abstract-paragraph"><span class="abstract-label">摘 要：</span>本文围绕短视频平台中的地方文化内容传播路径，基于案例文本分析与受众访谈，讨论叙事策略、平台机制与用户参与之间的关系。研究发现：叙事微型化、情感化表达与符号化视觉呈现是提升传播效率的关键；但在传播深度与文化准确性方面仍存在张力。研究为地方文化数字化传播提供可操作的传播模型与内容优化建议。</p>
+    <p class="keywords"><span class="keyword-label">关键词：</span><span class="keyword-item">地方文化</span><span class="keyword-item">短视频</span><span class="keyword-item">数字叙事</span><span class="keyword-item">传播效果</span></p>
+
+    <p class="abstract-paragraph times"><span class="abstract-label">Abstract:</span> This paper examines the communication path of local culture in short-video platforms through case-based textual analysis and audience interviews. It finds that micro-narrative structure, emotional expression, and symbolic visual design significantly improve communication efficiency, while depth and accuracy still require balancing.</p>
+    <p class="keywords times"><span class="keyword-label">Key words:</span> local culture <span class="keyword-item">short video</span><span class="keyword-item">digital narrative</span><span class="keyword-item">communication effect</span></p>
+
+    <h2 class="section-l1">一、研究背景与问题提出</h2>
+    <h3 class="section-l2">（一）研究背景</h3>
+    <h4 class="section-l3">1.媒介环境迁移</h4>
+    <h5 class="section-l4">（1）平台机制与内容分发</h5>
+    <p>人文社科论文正文采用宋体小四号（约14px）与1.5倍行距，段前段后均为0行。标题编号使用人文社科体例：一、（一）1.（1）。</p>
+    <p class="block-quote">地方文化传播并非单向度的信息扩散，而是平台机制、创作者策略与受众再生产共同作用的结果[1]。在大段引文中，采用楷体小四号，左右缩进与首行缩进均为2字符。</p>
+
+    <p class="table-title">表1 传播效果指标统计</p>
+    <table class="three-line" aria-label="三线表示例">
+      <thead>
+        <tr>
+          <th>指标</th>
+          <th>样本数</th>
+          <th>均值</th>
+          <th>标准差</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>完播率</td><td>120</td><td>68.5%</td><td>8.4</td></tr>
+        <tr><td>互动率</td><td>120</td><td>12.3%</td><td>3.1</td></tr>
+      </tbody>
+    </table>
+    <p class="page-number">1</p>
+  </main>
+
+  <!-- 参考文献 -->
+  <section class="paper page-break" aria-label="参考文献">
+    <h2 class="section-title-refs">参 考 文 献</h2>
+    <ol class="ref-list">
+      <li class="ref-item">[1] 李明. 数字平台与文化传播机制研究[J]. 现代传播, 2024, 46(3): 45-53</li>
+      <li class="ref-item">[2] Hall S. Representation: Cultural Representations and Signifying Practices[M]. London: Sage, 1997</li>
+    </ol>
+    <p class="page-number">18</p>
+  </section>
+
+  <!-- 致谢 -->
+  <section class="paper page-break" aria-label="致谢">
+    <h2 class="section-title-ack">致 谢</h2>
+    <p>感谢导师在选题、资料收集与论文修改过程中给予的悉心指导，感谢受访者在调研中的支持与配合。</p>
+    <p class="page-number">20</p>
+  </section>
+
+  <!-- 独撰声明 -->
+  <section class="paper page-break" aria-label="独撰声明">
+    <h2 class="section-title-declare">独 撰 声 明</h2>
+    <p>本人郑重声明：所呈交的毕业论文为本人在指导教师指导下独立完成。除文中已注明引用的内容外，本论文不包含他人已经发表或撰写的研究成果。</p>
+    <p class="right">声明人（手写）：__________</p>
+    <p class="page-number">21</p>
+  </section>
+
+  <!-- 附录 -->
+  <section class="paper" aria-label="附录">
+    <h2 class="section-title-appendix">附 录</h2>
+    <h3 class="heiti" style="font-size:30px; margin:1em 0 0;">附录1</h3>
+    <p>此处放置访谈提纲、补充数据表、重复性图表、主要符号说明等材料，正文格式与主体一致。</p>
+    <p class="page-number">22</p>
+  </section>
+</body>
+</html>
