@@ -34,12 +34,9 @@
 
     /* ===== 页眉页脚（示意） ===== */
     .page-header {
-      position: absolute;
-      top: -1.8cm;
-      left: 0;
-      right: 0;
       border-bottom: 1px solid #000;
       padding-bottom: 3px;
+      margin-bottom: 1.5em;
       font-size: 10.5pt;
       text-align: center;
     }
@@ -51,14 +48,21 @@
     }
 
     /* ===== 标题与段落层级 ===== */
-    .toc-title, .section-title-refs, .section-title-ack, .section-title-declare, .section-title-appendix {
+    .toc-title {
       text-align: center;
       font-family: "SimHei", "黑体", sans-serif;
+      font-size: 24px;
       line-height: 1;
       margin: 2em 0;
     }
-    .toc-title { font-size: 24px; letter-spacing: 0.5em; }
-    .section-title-refs, .section-title-ack, .section-title-declare, .section-title-appendix { font-size: 30px; letter-spacing: 0.25em; }
+    .section-title-major {
+      text-align: center;
+      font-family: "SimHei", "黑体", sans-serif;
+      font-size: 30px;
+      line-height: 1;
+      margin: 2em 0;
+    }
+    .appendix-subtitle { text-align: left; margin: 1em 0 0; }
 
     .thesis-main-title {
       margin: 2em 0 0;
@@ -103,7 +107,8 @@
       text-indent: 0;
     }
     .abstract-label, .keyword-label { font-family: "SimHei", "黑体", sans-serif; }
-    .keyword-item { margin-right: 1em; }
+    .keywords .keyword-label { margin-right: 1em; }
+    .keywords .keyword-item:not(:last-child) { margin-right: 1em; }
 
     /* ===== 目录 ===== */
     .toc-list { margin: 0; padding: 0; list-style: none; font-size: 14px; }
@@ -182,7 +187,7 @@
     <p class="keywords"><span class="keyword-label">关键词：</span><span class="keyword-item">地方文化</span><span class="keyword-item">短视频</span><span class="keyword-item">数字叙事</span><span class="keyword-item">传播效果</span></p>
 
     <p class="abstract-paragraph times"><span class="abstract-label">Abstract:</span> This paper examines the communication path of local culture in short-video platforms through case-based textual analysis and audience interviews. It finds that micro-narrative structure, emotional expression, and symbolic visual design significantly improve communication efficiency, while depth and accuracy still require balancing.</p>
-    <p class="keywords times"><span class="keyword-label">Key words:</span> local culture <span class="keyword-item">short video</span><span class="keyword-item">digital narrative</span><span class="keyword-item">communication effect</span></p>
+    <p class="keywords times"><span class="keyword-label">Key words:</span> <span class="keyword-item">local culture</span><span class="keyword-item">short video</span><span class="keyword-item">digital narrative</span><span class="keyword-item">communication effect</span></p>
 
     <h2 class="section-l1">一、研究背景与问题提出</h2>
     <h3 class="section-l2">（一）研究背景</h3>
@@ -211,7 +216,7 @@
 
   <!-- 参考文献 -->
   <section class="paper page-break" aria-label="参考文献">
-    <h2 class="section-title-refs">参 考 文 献</h2>
+    <h2 class="section-title-major">参 考 文 献</h2>
     <ol class="ref-list">
       <li class="ref-item">[1] 李明. 数字平台与文化传播机制研究[J]. 现代传播, 2024, 46(3): 45-53</li>
       <li class="ref-item">[2] Hall S. Representation: Cultural Representations and Signifying Practices[M]. London: Sage, 1997</li>
@@ -221,14 +226,14 @@
 
   <!-- 致谢 -->
   <section class="paper page-break" aria-label="致谢">
-    <h2 class="section-title-ack">致 谢</h2>
+    <h2 class="section-title-major">致 谢</h2>
     <p>感谢导师在选题、资料收集与论文修改过程中给予的悉心指导，感谢受访者在调研中的支持与配合。</p>
     <p class="page-number">20</p>
   </section>
 
   <!-- 独撰声明 -->
   <section class="paper page-break" aria-label="独撰声明">
-    <h2 class="section-title-declare">独 撰 声 明</h2>
+    <h2 class="section-title-major">独 撰 声 明</h2>
     <p>本人郑重声明：所呈交的毕业论文为本人在指导教师指导下独立完成。除文中已注明引用的内容外，本论文不包含他人已经发表或撰写的研究成果。</p>
     <p class="right">声明人（手写）：__________</p>
     <p class="page-number">21</p>
@@ -236,8 +241,8 @@
 
   <!-- 附录 -->
   <section class="paper" aria-label="附录">
-    <h2 class="section-title-appendix">附 录</h2>
-    <h3 class="heiti" style="font-size:30px; margin:1em 0 0;">附录1</h3>
+    <h2 class="section-title-major">附 录</h2>
+    <h3 class="heiti appendix-subtitle">附录1</h3>
     <p>此处放置访谈提纲、补充数据表、重复性图表、主要符号说明等材料，正文格式与主体一致。</p>
     <p class="page-number">22</p>
   </section>
